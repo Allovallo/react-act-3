@@ -11,7 +11,7 @@ const Painting = ({
 }) => {
   return (
     <div>
-      <img src={imageUrl} alt={title} />
+      <img src={imageUrl} alt={title} width="480" />
       <h2>{title}</h2>
       <p>
         Автор: <a href={profileUrl}>{author}</a>
